@@ -9,7 +9,7 @@ mm = MoneyMachine()
 choices = ['espresso', 'latte', 'cappuccino', 'report', 'off']
 
 while True:
-    prompt = 'x'
+    prompt = None
     while prompt not in choices:
         prompt = input(f'What would you like? ({m.get_items()}) ')
     
